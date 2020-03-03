@@ -7,4 +7,4 @@ Helps to make small or oddly shaped parts of an image interactible and easier to
 # What does the color map look like?
 ![Color Map](https://github.com/Rellek/Color-Map/blob/master/assets/graphs/full_color_map_v4.png)
 # Example of the above color map in action:
-![Click here](https://rellek.github.io/Color-Map/) to see the working example.
+[Click here](https://rellek.github.io/Color-Map/) to see the working example.
