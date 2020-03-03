@@ -6,3 +6,5 @@ A color map is a transparent image that lays over top of the interactive image. 
 Helps to make small or oddly shaped parts of an image interactible and easier to click on. Removes the need to use a basic image map or slices.
 # What does the color map look like?
 ![Color Map](https://github.com/Rellek/Color-Map/blob/master/assets/graphs/full_color_map_v4.png)
+# Example of the above color map in action:
+![Click here](https://rellek.github.io/Color-Map/) to see the working example.
