@@ -1,6 +1,6 @@
 // Click handler for the color map
 $('#color-map').on('click', function(e) {
-    // utility function for finding the position of the clicked pixel
+    // utility function definition for finding the position of the clicked pixel
     function findPos(obj) {
         var curleft = 0, curtop = 0;
         if (obj.offsetParent) {
@@ -24,7 +24,7 @@ $('#color-map').on('click', function(e) {
     // can still pick up details of a pixel, in this case it's color.  the RGB values are stored in an array: pixel[0], pixel[1], and pixel[2].  we test for the color
     // we clicked on to see if it matches any of the colors we're looking for.  if so, we have a match and know which wavelength was clicked on, which we then display
     // using .show();
-    // Not neccesary, but we could also add pixel[3] == 0 to make sure we're only checking pixels with an alpha value of 0 (which means its completely transparent).
+    // Not neccesary, but we could also add "&& pixel[3] == 0" to each of the if statements below to make sure we're only checking pixels with an alpha value of 0 (which means its completely transparent).
     // However, our color map takes up the entire image space, so we don't have to worry about the user clicking on something that is not the color map.
     if ((pixel[0] == '255') && (pixel[1] == '0') && (pixel[2] == '255')){
       hide_all_graphs();
