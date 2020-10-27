@@ -1,5 +1,5 @@
 # Color-Map
-Example of how to implement a transparent color map to make an image interactive.
+Example of how to implement a transparent color map to make an image interactive. I use this method when the "hotspots" of the image are not easily defined using a standard image map. For instance, this wavelength image is several constantly curving lines.  If the hotspots are just squares or circles however, this method will still work, but is very much overkill.
 # What is it?
 A color map is a transparent image that lays over top of the interactive image. The colors on the map correspond to different locations of the image, and allows us (the developer) to identify areas that can be interacted with. The color map is 100% transparent and cannot be seen by the user, however the browser can see it which allows us to return the color of the pixel clicked on.  We then use that pixel color to determine what it is the user has clicked on, and allows us to respond appropriately. 
 # What does it solve?
